@@ -1,0 +1,8 @@
+
+# A typical Rakefile
+
+PORT  = 8000
+HOSTS = localhost 
+
+actionset1:
+    remote-cc -o test test.c
